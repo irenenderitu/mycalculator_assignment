@@ -19,6 +19,6 @@ elif operation == "/":
         result = num1 / num2
         print(f"{num1} / {num2} = {result}")
     else:
-        print("Error: Dividing a number by zero is not allowed.")
+        print("error message: Dividing a number by zero is not allowed.")
 else:
     print("Invalid operation. Please enter one of these operations +, -, *, /.")
